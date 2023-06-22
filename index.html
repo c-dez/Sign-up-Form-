@@ -11,7 +11,8 @@
 <div id="container">
 
    <div id="side-image">
-        <img src="./images/mike-bacos-8FshqIxvoUY-unsplash.jpg" alt="">
+        <!-- <img src="./images/mike-bacos-8FshqIxvoUY-unsplash.jpg" alt=""> -->
+        <footer>Foto de Mike Bacos en Unsplash</footer>
    </div>
    <div id="side-panel">
         <p class="title">Thi is not a real online service!
@@ -19,30 +20,27 @@
         <p>You <i>know</i> tou want to.</p>  
         
         <form action="#">
-            <fieldset>
-                <legend>Let's do this!</legend>
-                <label for="name">*First name</label>
-                <input type="text" name="name" id="name" placeholder="First name" required>
-                <label for="last-name">*Last name</label>
-                <input type="text" name="lastName" id="lastName" placeholder="Last name" required>
+           <div class="columna">
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+           </div>
+           <div>
+                <label for="lastNmae">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+           </div>
+           <div class="columna">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="your@email.com">
 
-                <label for="email">*E-mail</label>
-                <input type="email" name="email" id="email" placeholder="your@email.com" required>
+           </div>
+           <div>
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone" id="phone" placeholder="Phone number">
 
-                <label for="phone">Phone number</label>
-                <input type="text" name="phone" id="phone" placeholder="22 123456">
+           </div>
 
-                <label for="password">*Password</label>
-                <input type="password" name="password" id="password">
-                <label for="password">*Confirm Password</label>
-                <input type="password" name="password" id="password">
-
-                <button type="submit">Submit Info</button>
-                <button type="reset">Reset Info</button>
-
-                
-            </fieldset>
-           </form>
+               
+        </form>
 
    </div>
   
