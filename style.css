@@ -6,14 +6,19 @@ body{
     display: flex;
 }
 #side-image{
+    display: flex;
     width: 50%;
-    height: 100vh;
-    background-color: aqua;
+    height: 100vh;background-color: aqua;
+
+}
+#side-image img{
+    width: 100%;
 }
 #side-panel{
     display: flex;
     flex-direction: column;
     align-items: center;
+
     padding-left: 10px;
     /* width: 60%; */
 }
