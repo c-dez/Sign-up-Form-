@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+#container{
+    display: flex;
+}
+#side-image{
+    width: 50%;
+    height: 100vh;
+    background-color: aqua;
+}
+#side-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    /* width: 60%; */
+}
+#side-panel p:first-child{
+    color: rebeccapurple;
+    /* align-self: self-start; */
+}
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
