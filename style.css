@@ -10,7 +10,7 @@ body{
     display: flex;
     max-width: 540px;
     height: 100vh;background-color: aqua;
-    background-image: url(./images/mike-bacos-8FshqIxvoUY-unsplash.jpg);
+    background-image: url(/images/yohann-mourre-hds60mCxbPg-unsplash.jpg);
 
 }
 #side-image footer{
@@ -26,8 +26,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-    padding-left: 10px;
+    
+    /* padding-left: 10px; */
     /* width: 60%; */
 }
 #side-panel p:first-child{
@@ -40,9 +40,11 @@ form {
     flex-wrap: wrap;
     flex-direction: row;
     /* width: 80%; */
-    padding: 30px;
+    /* padding: 30px; */
+    /* row-gap: 30px; */
     /* justify-content: space-between; */
     background-color: aqua;
+    font-size: 18px;
 }
 form div{
     display: flex;
@@ -51,7 +53,13 @@ form div{
     padding: 10px;
 }
 
-.password, .confirmPassword{
-    padding-top: 30px;
-    font-size: 14px;
+.password{
+    display: flex;
+    flex-direction: column;
+}
+#submitBtn{
+display: flex;
+gap: 10px;
+flex-direction: column;
+padding-top: 20px;
 }
