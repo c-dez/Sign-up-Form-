@@ -5,68 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="./app.js" defer></script>
+    
     <title>Sing up form</title>
 </head>
 <body>
-<div id="container">
-
-   <div id="side-image">
-        <!-- <img src="./images/mike-bacos-8FshqIxvoUY-unsplash.jpg" alt=""> -->
-        <footer>Foto de Mike Bacos en Unsplash</footer>
-   </div>
-   <div id="side-panel">
-        <p class="title">Thi is not a real online service! You know you need
-            something like this in your life to help realize your deepest dreams.
-        </p>
-        <p>Sing up <strong>now</strong> to get started.</p>
-        <p>You <i>know</i> you want to.</p>  
-        
-        <form action="#">
-           <div class="columna">
-                <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName" placeholder="First Name">
-           </div>
-           <div>
-                <label for="lastNmae">Last Name:</label>
-                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-           </div>
-           <div class="columna">
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" placeholder="your@email.com">
-
-           </div>
-           <div>
-            <label for="phone">Phone:</label>
-            <input type="text" name="phone" id="phone" placeholder="Phone number">
-
-           </div>
-           
-           <div class="confirmPassword"> 
-            
-
-           </div>
-
-               
-        </form>
-        <div class="password">
-            <div><label for="password">*Password:</label>
-                <input type="password" name="password" id="password">
-            </div>
-
-            <div>
-                <label for="confirmPassword">Confirm Password:</label>
-            <input type="password" name="confirmPassword" id="confirmPassword">
-            </div>
-           </div>
-        <div id="submitBtn">
-        <button class="submitBtn" type="submit">Submit Info</button>
-        <p class="singUp">Already have an acount? <a href="#">Log in.</a></p>
-
+    <div id="container">
+        <div id="leftPanel">
+            <footer>Image credit footer</footer>
         </div>
+        <div id="rightPanel">
+            <p>
+                Thi is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+            </p>
+            <p>
+                You <i>know</i> you want to.
+            </p>
+            <p>Let's do this!</p>  
+            <div id="form">
+                
+                <form action="#">
+                    <div class="firstName">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                    </div>
+                    <div id="lastName">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div id="email">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="your@email.com">
+                    </div>
+                    <div id="phone">
+                        <label for="phone">Phone:</label>
+                        <input type="text" name="phone" id="phone" placeholder="Phone number">
+                    </div>
+                    <div id="password">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div id="confirm">
+                        <label for="confirm">Confirm password:</label>
+                        <input type="password" name="confirm" id="confirm">
+                    </div>
 
-   </div>
-  
-</div>
-    
+                </form>
+
+                <div id="btn">
+                    <button type="submit">Create Account</button>
+                </div>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>  
+        </div>
+    </div>
 </body>
 </html>

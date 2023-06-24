@@ -1,65 +1,61 @@
 body{
-    margin: 0;
-    height: 100vh;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: black;
 }
 #container{
     display: flex;
+    
+    background-color: white;
 }
-#side-image{
-    flex: 1;
-    display: flex;
-    max-width: 540px;
-    height: 100vh;background-color: aqua;
-    background-image: url(/images/yohann-mourre-hds60mCxbPg-unsplash.jpg);
+#leftPanel{
+    /* display: flex; */
+    background-color: aquamarine;
+    background-image: url(./images/yohann-mourre-hds60mCxbPg-unsplash.jpg);
+    width:625px; 
+    height: 100vh;
+    
 
 }
-#side-image footer{
-    align-self: self-end;
-    margin: 10px;
-    color: white;
-}
-
-#side-panel{
-    border: 3px solid red;
-    max-width: 600px;
-    flex: 1;
+#rightPanel{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    
-    /* padding-left: 10px; */
-    /* width: 60%; */
+   /* min-width: 60%; */
+   max-width: 60vw;
+   /* border: 2px solid red; */
+   padding-top: 100px;
+   /* padding-right: 100px; */
+   /* align-items: center; */
+    padding-left: 50px;
 }
-#side-panel p:first-child{
-    color: rebeccapurple;
-    /* align-self: self-start; */
-}
-
-form {
+form{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    /* width: 80%; */
-    /* padding: 30px; */
-    /* row-gap: 30px; */
+    max-width: 600px;
+    /* border: 2px solid red; */
     /* justify-content: space-between; */
-    background-color: aqua;
-    font-size: 18px;
+    gap: 21px;
 }
-form div{
+form>div{
     display: flex;
     flex-direction: column;
-    max-width: 150px;
-    padding: 10px;
-}
+    flex-wrap: wrap;
 
-.password{
-    display: flex;
-    flex-direction: column;
 }
-#submitBtn{
-display: flex;
-gap: 10px;
-flex-direction: column;
-padding-top: 20px;
+#rightPanel p:first-child{
+    font-weight: bold;
+    font-size: 28px;
+}
+#rightPanel p{
+font-size: 24px;
+}
+#btn{
+    padding-top: 20px;
+
+}
+button{
+    font-size: 18px;
+    background-color: blanchedalmond;
+    padding: 11px;
 }
